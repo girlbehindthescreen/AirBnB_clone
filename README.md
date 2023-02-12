@@ -40,13 +40,13 @@ After cloning the repository you will have a folder called AirBnB_clone. In here
 > /console.py : The main executable of the project, the command interpreter.
 >
 > models/engine/file_storage.py: Class that serializes instances to a JSON file and deserializes JSON file to instances
-> 
+>
 > models/__ init __.py:  A unique `FileStorage` instance for the application
-> 
+>
 > models/base_model.py: Class that defines all common attributes/methods for other classes.
-> 
+>
 > models/user.py: User class that inherits from BaseModel
-> 
+>
 >models/state.py: State class that inherits from BaseModel
 >
 >models/city.py: City class that inherits from BaseModel
@@ -75,8 +75,8 @@ Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
 
-(hbnb) 
-(hbnb) 
+(hbnb)
+(hbnb)
 (hbnb) quit
 $
 ```
@@ -91,7 +91,7 @@ $ echo "help" | ./console.py
 Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
-(hbnb) 
+(hbnb)
 $
 $ cat test_help
 help
@@ -102,7 +102,7 @@ $ cat test_help | ./console.py
 Documented commands (type help <topic>):
 ========================================
 EOF  help  quit
-(hbnb) 
+(hbnb)
 $
 ```
 
